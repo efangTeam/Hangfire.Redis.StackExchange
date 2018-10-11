@@ -1,4 +1,4 @@
-# Hangfire.Redis.StackExchange
+# Hangfire.Redis.StackExchange.Efang
 
 HangFire Redis storage based on [HangFire.Redis](https://github.com/HangfireIO/Hangfire.Redis/) but using lovely [StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis) client.
 
