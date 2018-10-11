@@ -2,13 +2,11 @@
 
 HangFire Redis storage based on [HangFire.Redis](https://github.com/HangfireIO/Hangfire.Redis/) but using lovely [StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis) client.
 
-[![Build status](https://ci.appveyor.com/api/projects/status/mrg1hivw1fnrvw2o?svg=true)](https://ci.appveyor.com/project/marcoCasamento/hangfire-redis-stackexchange)
-[![Nuget Badge](https://buildstats.info/nuget/Hangfire.Redis.StackExchange)](https://www.nuget.org/packages/Hangfire.Redis.StackExchange/)
 
 | Package Name                                  | NuGet.org                                                                                                                                                             |
 |-----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `Hangfire.Redis.StackExchange`                | [![Nuget Badge](https://img.shields.io/nuget/v/Hangfire.Redis.StackExchange.svg)](https://www.nuget.org/packages/Hangfire.Redis.StackExchange/)                       |
-| `Hangfire.Redis.StackExchange.StrongName`     | [![Nuget Badge](https://img.shields.io/nuget/v/Hangfire.Redis.StackExchange.StrongName.svg)](https://www.nuget.org/packages/Hangfire.Redis.StackExchange.StrongName/) |
+| `Hangfire.Redis.StackExchange.Efang`                | [![Nuget Badge](https://img.shields.io/nuget/v/Hangfire.Redis.StackExchange.svg)](https://www.nuget.org/packages/Hangfire.Redis.StackExchange.Efang/2.1.0)                       |
+
 
 #### Highlights
 - Support for Hangfire Batches ([feature of Hangfire Pro](http://hangfire.io/blog/2015/04/17/hangfire-pro-1.2.0-released.html))
@@ -22,7 +20,7 @@ HangFire Redis storage based on [HangFire.Redis](https://github.com/HangfireIO/H
 
 ### Getting Started
 
-To use Hangfire against Redis in an ASP.NET Core MVC projects, first you will need to install at least these two packages: `Hangfire.AspNetCore` and `Hangfire.Redis.StackExchange`.
+To use Hangfire against Redis in an ASP.NET Core MVC projects, first you will need to install at least these two packages: `Hangfire.AspNetCore` and `Hangfire.Redis.StackExchange.Efang`.
 
 In `Startup.cs`, these are the **bare minimum** codes that you will need to write for enabling Hangfire on Redis:
 
